@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f43f7ee8-3eb4-467c-beb1-b68640302440" name="Default" comment="">
+    <list default="true" id="f43f7ee8-3eb4-467c-beb1-b68640302440" name="Default" comment="第一次json清晰,字符串">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/163music_hy_hot.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/163music_hy_hot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/163music_hy_hot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/163music_hy_hot.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,28 +13,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CloudMusic$main.coverage" NAME="main Coverage Results" MODIFIED="1580820908553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CloudMusic$main.coverage" NAME="main Coverage Results" MODIFIED="1581181793144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CloudMusic/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CloudMusic/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="3657">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,34 +32,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="163music_hy_hot.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="163musichyhot.turtle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/163musichyhot.turtle">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="23">
-              <caret line="1273" column="55" selection-start-line="1273" selection-start-column="55" selection-end-line="1273" selection-end-column="55" />
+      <file leaf-file-name="similarMusic.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/similarMusic.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="163music_hy_hot.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.json">
+      <file leaf-file-name="playlistMusic.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/playlistMusic.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret column="3120265" lean-forward="true" selection-end-column="3246010" />
+            <state relative-caret-position="10557">
+              <caret line="459" selection-start-line="459" selection-end-line="459" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="albumMusic.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/albumMusic.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50784">
+              <caret line="2208" column="11" selection-start-line="2208" selection-start-column="9" selection-end-line="2208" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sung_rel.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/sung_rel.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="163music_hy_hot.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="music_nodes.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/music_nodes.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="5483" column="70" selection-start-line="5483" selection-start-column="67" selection-end-line="5483" selection-end-column="70" />
+            <state relative-caret-position="29256">
+              <caret line="1272" column="15" selection-start-line="1272" selection-start-column="15" selection-end-line="1272" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="163musichyhot.turtle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/163musichyhot.turtle">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="368">
+              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -100,7 +115,15 @@
       <find>2936</find>
       <find>oid</find>
       <find>1365637039</find>
+      <find>_id</find>
+      <find>album_id</find>
       <find>1399113287</find>
+      <find>playlist_ids</find>
+      <find>27698464</find>
+      <find>丑八怪</find>
+      <find>薛之谦</find>
+      <find>像鱼</find>
+      <find>我曾</find>
     </findStrings>
     <replaceStrings>
       <replace>($1)</replace>
@@ -115,6 +138,7 @@
         <option value="$PROJECT_DIR$/data/163music_hy_hot.xml" />
         <option value="$PROJECT_DIR$/data/163music_hy_hot.json" />
         <option value="$PROJECT_DIR$/data/163music_hy_hot.txt" />
+        <option value="$PROJECT_DIR$/data/music_nodes.csv" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -139,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,30 +174,19 @@
             <path>
               <item name="CloudMusic" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudMusic" type="462c0819:PsiDirectoryNode" />
-              <item name="CloudMusic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CloudMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudMusic" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CloudMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CloudMusic" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -268,7 +282,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -276,9 +290,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32784432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32784432" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -297,10 +311,10 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32784432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -311,7 +325,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -333,6 +347,99 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/sung_rel.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/music_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29256">
+          <caret line="1272" column="15" selection-start-line="1272" selection-start-column="15" selection-end-line="1272" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163musichyhot.turtle">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="144716">
+          <caret line="6292" column="44" selection-start-line="6292" selection-start-column="44" selection-end-line="6292" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CloudMusic/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CloudMusic/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2576">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/album_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35650">
+          <caret line="1550" lean-forward="true" selection-start-line="1550" selection-end-line="1550" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/artist_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17227">
+          <caret line="749" lean-forward="true" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/playlist_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46046">
+          <caret line="2002" column="20" selection-start-line="2002" selection-start-column="20" selection-end-line="2002" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/music_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29256">
+          <caret line="1272" column="8" selection-start-line="1272" selection-end-line="1272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71737">
+          <caret column="3119666" selection-start-column="3119666" selection-end-column="3119666" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350543">
+          <caret line="15241" column="20" selection-start-line="15241" selection-start-column="12" selection-end-line="15241" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sung_rel.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CloudMusic/settings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -451,40 +558,92 @@
     <entry file="file://$PROJECT_DIR$/CloudMusic/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/str.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="5483" column="70" selection-start-line="5483" selection-start-column="67" selection-end-line="5483" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/163musichyhot.turtle">
-      <provider selected="true" editor-type-id="LargeFileEditor">
+    <entry file="file://$PROJECT_DIR$/data/playlist_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46046">
+          <caret line="2002" column="20" selection-start-line="2002" selection-start-column="20" selection-end-line="2002" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/artist_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17227">
+          <caret line="749" lean-forward="true" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/str.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sung_rel.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/album_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="1550" selection-start-line="1550" selection-end-line="1550" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/albumMusic.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50784">
+          <caret line="2208" column="11" selection-start-line="2208" selection-start-column="9" selection-end-line="2208" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1273" column="55" selection-start-line="1273" selection-start-column="55" selection-end-line="1273" selection-end-column="55" />
+          <caret column="3119666" selection-start-column="3119666" selection-end-column="3119666" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/playlistMusic.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10557">
+          <caret line="459" selection-start-line="459" selection-end-line="459" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="3657">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.json">
+    <entry file="file://$PROJECT_DIR$/data/similarMusic.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret column="3120265" lean-forward="true" selection-end-column="3246010" />
+        <state relative-caret-position="69">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/music_nodes.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29256">
+          <caret line="1272" column="15" selection-start-line="1272" selection-start-column="15" selection-end-line="1272" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163music_hy_hot.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/163musichyhot.turtle">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="368">
+          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
         </state>
       </provider>
     </entry>
